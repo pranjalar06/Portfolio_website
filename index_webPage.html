@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/outputWP.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Pranjal Portfolio</title>
+</head>
+<body class="bg-slate-900 text-white font-mono">    
+    <!-- navbar goes here -->
+    <nav class="h-12 w-full bg-violet-400 text-violet-950 flex justify-between items-center px-4 md:p-4">
+        <div class="text-violet-950 font-bold font-mono"><i class="fa-solid fa-star text-s mr-1"></i>Pranjal Arora</div>
+        <ul class="md:flex hidden font-semibold">
+            <li class="mx-[10px] cursor-pointer" > <a href="#about">About</a></li>
+            <li class="mx-[10px] cursor-pointer"> <a href="#projects">Projects</a></li>
+            <li class="mx-[10px] cursor-pointer"><a href="https://drive.google.com/file/d/1uTQ34YOciXpUt-IhSaUI3zKV5HzK5hSK/view?usp=sharing">Resume</a></li>
+        </ul>
+        <div class="font-semibold px:4 py:4 hidden underline md:block hover:cursor-pointer " > <a href="#contact"> Contact Me</a></div>
+        <div class="font-semibold text-violet-950 md:hidden hover:cursor-pointer" ><a href="#contact"><i class="fa-solid fa-bars">
+        </i></a></div>  
+        
+    </nav>
+    <!-- navbar ends her -->
+     
+    <!-- heroSection -->
+
+    <!-- image section start -->
+    <header class="h-auto w-full ">
+        <img src="./herophn.png" alt="image" class="mt-2.5 w-full md:hidden">
+        <img src="./heroWeb.png" alt="image" class="w-full hidden md:block">
+    </header>
+    <div class=" mt-4 flex align-middle justify-center"> <div class="border-2 border-rose-300 w-60"> </div> </div>
+    
+    <!-- image section ends -->
+
+    <!-- about section starts -->
+     <div id="about" class="h-auto w-full flex flex-wrap flex-col items-center text-left pt-6 pb-5 p-10">
+        <div class="flex flex-wrap flex-col items-center text-left">
+            <img src="./about.png" class="h-11.5 md:h-15.5 mb-4" alt="">
+            <div class="flex flex-wrap flex-col items-left text-left" >
+                <p class="mt-3 text-sm md:text-lg">Hey! I’m Pranjal — a frontend developer who loves turning quirky ideas into clean, responsive interfaces.</p>
+                <p class="mt-3 text-sm md:text-lg">I mostly work with HTML, CSS, and JavaScript, but I’m also comfortable dipping into backend logic when needed. I enjoy both the creative and logical sides of development — mixing playful UI with solid fundamentals in C, C++, Java, and DSA.</p>
+                <p class="mt-3 text-sm md:text-lg">Whether it’s smoothing out tiny animations or solving a binary tree problem, I like building things that are simple, smart, and just a little unexpected.</p>
+                <p class="mt-3 text-sm md:text-lg">Currently crafting a collection of fun, functional tools — always open to learning, collaborating, or just vibing over good design ✨</p>
+            </div>
+        </div>
+    </div>
+    <!-- about section ends -->
+
+    <!-- project section starts -->
+    <div class=" flex align-middle justify-center"> <div class="border-2 border-rose-300 w-60"> </div> </div>
+     <div id="projects" class="h-auto w-full flex flex-wrap flex-col items-center text-center pt-7 p-10 pb-2">
+        <div class="flex flex-wrap flex-col items-center text-center">
+            <img src="./projects.png" class="h-11.5 md:h-15.5 " alt="">
+            <p class="md:text-lg mb-5">~Turning Ideas into Interactive Tools~</p>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly mt-3">
+
+            <!-- project1 -->
+            <div class="flex flex-col items-center w-46 mb-12 p-2 pb-4 border-2 rounded-3xl ">
+                <img class="w-35 h-35" src="./pomodoro.png" alt="">
+                <p class="text-xl md:text-2xl font-semibold text-violet-400"><a href="https://sparkling-elf-e9f31b.netlify.app/" class="hover:underline">Pomodoro Timer</a></p>
+                <p class="mt-2 text-xs md:text-sm font-semibold text-gray-300">25-minute focus + 5/10-minute breaks | Minimal UI for productivity 🌸 </p>
+            </div>
+
+            <!-- project2 -->
+            <div class="flex flex-col items-center w-46 mb-12 p-2 pb-5 border-2 rounded-3xl ">
+                <img class="w-35 h-35 p-0.5 pt-2 rounded-2xl" src="./palette.png " alt="">
+                <p class="text-xl md:text-2xl  font-semibold text-violet-400 "><a href="https://glistening-bombolone-7bf139.netlify.app/" class="hover:underline">Palette Generator</a></p>
+                <p class="mt-2 text-xs md:text-sm font-semibold text-gray-300">Instantly generate 5 bold, unique colors | Minimal tool for designers & devs 🎨
+</p>
+            </div>
+            
+            <!-- project3 -->
+            <div class="flex flex-col items-center w-46 mb-12 p-2 pb-5 border-2 rounded-3xl  ">
+                <img class="w-35 h-35" src="./password.png" alt="">
+                <p class="text-xl md:text-2xl  font-extrabold text-violet-400"> <a href="https://glistening-bombolone-7bf139.netlify.app/" class="hover:underline">Password Generator</a></p>
+                <p class="mt-2 text-xs md:text-sm font-semibold text-gray-300">12-character secure passwords with symbols | Clean, instant, and offline 🔐 </p>
+            </div>
+
+            <!-- project4 -->
+            <div class="flex flex-col items-center w-46 mb-12 p-2 pb-5 border-2 rounded-3xl ">
+                <img class="w-35 h-35" src="./skycast.png" alt="">
+                <p class="text-xl md:text-2xl  font-semibold text-violet-400"> <a href="https://creative-valkyrie-42a391.netlify.app/" class="hover:underline">SkyCast</a></p>
+                <p class="mt-10 text-xs md:text-sm font-semibold text-gray-300">Synchronizing live weather updates with API precision. 🌦️</p>
+            </div>
+
+        </div>
+
+        
+     </div>
+
+    <!-- project section ends -->
+
+    <!-- contact us start -->
+    <div id="contact">
+            <div class=" flex align-middle justify-center"> <div class="border-2 border-rose-300 w-60 mb-3"> </div> </div>
+
+        <div class="flex flex-wrap flex-col items-center text-center">
+            <img src="./contact.png" class="h-11.5 md:h-15.5 " alt="">
+        </div>
+        <div id="contact" class="w-full text-white px-4 pb-6 pt-7 flex flex-col md:flex-row flex-wrap justify-between md:px-12">
+            <span class="hover:underline">pranjalarora2006@gmail.com</span>
+            <a href="https://www.linkedin.com/in/pranjal-arora-5bb574306/" class="hover:underline">LinkedIn</a>
+            <a href="https://leetcode.com/u/pranjalarora/" class="hover:underline">LeetCode</a>
+            <a href="https://github.com/pranjalar06" class="hover:underline">Github</a>
+            <a href="https://drive.google.com/file/d/1uTQ34YOciXpUt-IhSaUI3zKV5HzK5hSK/view?usp=sharing" class="hover:underline">Resume</a>   
+            
+        </div>      
+    </div>
+    <!-- contact us end -->
+
+    
+</body>
+</html>
